@@ -1,0 +1,42 @@
+.taskList{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 50%;
+    height: 40%;
+    border-radius: 15px;
+}
+
+.content-task{
+    padding: 30px;
+    list-style: '- ';
+
+}
+
+.content-add-task{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+}
+
+.input-content{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.add-task{
+    color: black; 
+    background-color: black;
+    color: white;
+}
+
+/* Effet au survol */
+.add-task:hover {
+    background-color: white;
+    color: black;
+}
